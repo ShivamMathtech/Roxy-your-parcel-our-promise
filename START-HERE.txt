@@ -1,0 +1,36 @@
+ROXY - PARCEL DELIVERY APPLICATION
+=================================
+
+QUICKEST WAY TO RUN ON WINDOWS
+
+1. Install Node.js 24.x from https://nodejs.org/
+2. Extract this ZIP completely into a folder you can write to.
+3. Double-click START-WINDOWS.bat.
+4. Your browser opens http://localhost:4000 (or http://127.0.0.1:4000).
+5. Choose Customer demo or Admin demo on the sign-in screen.
+
+Keep the server window open. Press Ctrl+C to stop.
+The prebuilt frontend is included. npm install is NOT needed for this quick start.
+
+CUSTOMER DEMO
+Email: hello@roxy.demo
+Password: RoxyDemo@123
+
+ADMIN DEMO
+Email: admin@roxy.demo
+Password: RoxyAdmin@123
+
+To edit the source, run SETUP-WINDOWS.bat, then DEV-WINDOWS.bat.
+Developer URL: http://localhost:4173
+After editing, run npm run build before using START-WINDOWS.bat again.
+
+Bookings, addresses, status events, payments and conversations are saved to
+data/roxy.sqlite. This folder is created on first launch.
+
+PAYMENTS ARE SIMULATED. There is no live courier dispatch, GPS, email or SMS
+provider connected. A demo payment never charges money. Admin status changes
+are reflected in customer tracking. This is a responsive web application,
+not an APK, native iOS app, or Adobe XD project.
+
+See README.md for all features, development instructions and troubleshooting.
+See docs/API.md, docs/ARCHITECTURE.md and docs/DEPLOYMENT.md for technical details.
